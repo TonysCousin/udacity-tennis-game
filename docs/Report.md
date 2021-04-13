@@ -85,6 +85,7 @@ I began using a random search algorithm to help explore the hyperparameter space
 
 Once all code was confirmed correct, and reasonable structure was in place, hyperparameter tuning led to several acceptable solutions.
 I chose the one I named M46.20 to be featured in this report, as its learning history looked a bit more robust than the others.
+It found the solution in 1983 episodes.
 Its NN paremeters are stored in the [checkpoint M46.20_1983.pt](../checkpoint/M46/M46.20_1983.pt).
 Its learning history is shown in the following two plots, the first being raw scores from each episode, and the second being the 100-point moving average score.
 
